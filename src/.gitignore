@@ -1,0 +1,25 @@
+# binaries
+a.out
+*.out
+*.exe
+
+# object files
+*.o
+*.obj
+
+# build directories
+build/
+cmake-build-*/
+
+# CUDA
+*.ptx
+*.cubin
+*.fatbin
+
+# editor
+.DS_Store
+.vscode/
+.idea/
+
+# cutlass
+src/cutlass/
