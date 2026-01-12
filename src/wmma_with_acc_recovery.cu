@@ -1,7 +1,6 @@
 // Reference: https://arxiv.org/pdf/2203.03341 + baseline.cu
 // We use wmma to avoid headaches + demonstration use
 
-#include <cuda.h>
 #include <cuda_fp16.h>
 #include <cuda_runtime.h>
 #include <mma.h>
